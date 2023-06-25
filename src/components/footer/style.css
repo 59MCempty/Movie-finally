@@ -1,0 +1,26 @@
+@layer components {
+    .footer {
+        @apply absolute bottom-0 w-full bg-black3 text-white py-12 px-0;
+    }
+
+    .content_footer {
+        @apply text-xs leading-5 opacity-50 text-center max-w-[800px] mb-5 md:text-sm md:mb-7
+    }
+
+
+    .menuItems_footer {
+        @apply list-none flex items-center justify-center gap-3.5 md:mb-7 mb-5 gap-4;
+    }
+
+    .menuItem_footer {
+        @apply transition ease-out duration-300 cursor-pointer md:text-base text-xs hover:text-pink
+    }
+
+    .socialIcon {
+        @apply w-12 h-12 rounded-full bg-black1 flex items-center justify-center cursor-pointer transition ease-out duration-300 hover:shadow-pink
+    }
+
+    .icon_style {
+        @apply transition ease-out duration-300 hover:text-pink
+    }
+}

@@ -1,0 +1,44 @@
+
+.filters {
+    @apply flex gap-2.5 flex-col md:flex-row
+}
+
+.react-select-container .genresDD {
+    @apply w-full max-w-[500px] min-w-[250px]
+}
+
+.react-select-container .sortbyDD {
+    @apply w-full shrink-0 md:w-[250px]
+}
+
+.react-select-container .react-select__control {
+    @apply border-0 outline-0 bg-blackLight rounded-[20px];
+    box-shadow: none;
+}
+
+.react-select__control .react-select__value-container .react-select__placeholder, .react-select__input-container {
+    @apply text-white my-0 mx-2.5
+}
+
+.react-select__control .react-select__single-value {
+    @apply text-white
+}
+
+.react-select__control .react-select__multi-value {
+    @apply bg-black3 rounded-[10px]
+}
+
+.react-select__control .react-select__multi-value .react-select__multi-value__label {
+    @apply text-white
+}
+
+.react-select__control .react-select__multi-value__remove {
+    @apply bg-transparent text-white cursor-pointer hover:text-blackLight
+}
+
+.react-select__menu {
+    @apply top-[40px] m-0 p-0
+}
+
+
+

@@ -1,0 +1,15 @@
+
+.posterBlockCard {
+    @apply relative w-full aspect-[1/1.5] bg-cover bg-center mb-[30px] flex items-end p-2.5 justify-between;
+    transition: all ease 0.5s;
+}
+
+.posterBlockCard .lazy-load-image-background {
+    @apply absolute top-0 left-0 w-full h-full rounded-[12px] overflow-hidden;
+}
+
+.posterBlockCard .lazy-load-image-background img {
+    @apply w-full h-full object-cover object-center;
+}
+
+
